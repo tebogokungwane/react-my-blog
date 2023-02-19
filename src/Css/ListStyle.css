@@ -1,0 +1,39 @@
+:root{
+    --mainColor: white
+}
+header{
+    background-color: var(--mainColor);
+}
+.container{
+    width: 95%;
+    margin: 0% auto;
+    max-width: 12000px;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 130px;
+    padding: .5em 0;
+}
+.listItem{
+    margin-left: 2em;
+    color: red;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.activeItem{
+    color: black;
+    border-bottom: .1em double blue;
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+.html{
+
+    font-size: 13px;
+}

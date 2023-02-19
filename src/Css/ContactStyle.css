@@ -1,0 +1,37 @@
+.contact{
+    max-width: 990px;
+    margin:2em auto;
+}
+.name{
+    width: 100px;
+}
+input{
+    width: 100%;
+    padding:.7em;
+    margin-bottom: 1.5em;
+    border:.3em double var(--mainColor);
+    outline: none;
+    font-size: 1.1rem;
+}
+label{
+    font-size: 1,rem;
+    font-weight: bold;
+
+}
+.h1{
+    align-items: center;
+}
+
+@media screen and (max-width: 768) {
+    .contact{
+        width: 70%;
+        margin: 1em auto;
+    }
+    input{
+        width: 100%;
+        padding:.3em;
+        border:.3em double var(--mainColor);
+        
+    }
+    
+}
